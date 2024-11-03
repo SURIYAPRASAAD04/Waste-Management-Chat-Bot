@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good day", "How are you?"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Hey! What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "See you later", "Bye", "I am leaving", "Have a good day"],
+            "responses": ["Goodbye! Have a great day!", "See you later!", "Bye! Take care!"]
+        },
+        {
+            "tag": "covid_symptoms",
+            "patterns": ["What are the symptoms of COVID-19?", "COVID-19 symptoms", "Tell me COVID-19 symptoms"],
+            "responses": ["Common symptoms include fever, dry cough, and tiredness.", "Symptoms are fever, dry cough, and tiredness."]
+        },
+        {
+            "tag": "covid_prevention",
+            "patterns": ["How can I prevent COVID-19?", "COVID-19 prevention", "Prevent COVID-19"],
+            "responses": ["Wear a mask, maintain social distancing, and wash your hands regularly.", "Prevention includes mask-wearing, social distancing, and hand hygiene."]
+        },
+        {
+            "tag": "hypertension",
+            "patterns": ["What is hypertension?", "Define hypertension", "Explain hypertension"],
+            "responses": ["Hypertension is high blood pressure, a condition in which the force of the blood against the artery walls is too high.", "It is high blood pressure, where the force against artery walls is too high."]
+        },
+        {
+            "tag": "hypertension_symptoms",
+            "patterns": ["What are the symptoms of hypertension?", "Symptoms of hypertension", "Hypertension symptoms"],
+            "responses": ["Symptoms include headaches, shortness of breath, and nosebleeds, but many people have no symptoms.", "Headaches, shortness of breath, and nosebleeds are symptoms."]
+        },
+        {
+            "tag": "diabetes",
+            "patterns": ["What is diabetes?", "Define diabetes", "Explain diabetes"],
+            "responses": ["Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high.", "It occurs when blood glucose levels are too high."]
+        },
+        {
+            "tag": "diabetes_symptoms",
+            "patterns": ["What are the symptoms of diabetes?", "Symptoms of diabetes", "Diabetes symptoms"],
+            "responses": ["Symptoms include increased thirst, frequent urination, extreme fatigue, and blurred vision.", "Increased thirst, frequent urination, fatigue, and blurred vision are symptoms."]
+        }
+    ]
+}
